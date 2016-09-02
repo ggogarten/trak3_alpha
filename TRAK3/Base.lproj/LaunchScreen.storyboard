@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -13,15 +15,49 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="openingBackgroundEdited.png" translatesAutoresizingMaskIntoConstraints="NO" id="fJZ-6q-Piv">
+                                <rect key="frame" x="-4" y="0.0" width="383" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="resistText.png" translatesAutoresizingMaskIntoConstraints="NO" id="hXg-By-PtY">
+                                <rect key="frame" x="67" y="77" width="240" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="0tJ-j7-7Tc"/>
+                                    <constraint firstAttribute="width" constant="240" id="85m-hl-Kli"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gluck_dev_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="yZg-LT-MBD">
+                                <rect key="frame" x="137" y="512" width="101" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="6Rz-8Q-nnX"/>
+                                    <constraint firstAttribute="width" constant="101" id="ZeL-PT-Uyy"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="fJZ-6q-Piv" secondAttribute="trailing" constant="-20" id="0cl-wY-1Uy"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="fJZ-6q-Piv" secondAttribute="bottom" id="59r-H7-J9X"/>
+                            <constraint firstItem="fJZ-6q-Piv" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="BMU-Fj-N4K"/>
+                            <constraint firstItem="fJZ-6q-Piv" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="G77-so-zzn"/>
+                            <constraint firstItem="hXg-By-PtY" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="UhV-4B-75M"/>
+                            <constraint firstItem="yZg-LT-MBD" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="aAE-W5-DBC"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="yZg-LT-MBD" secondAttribute="bottom" constant="25" id="jYw-jp-bVp"/>
+                            <constraint firstItem="hXg-By-PtY" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="57" id="pS0-LQ-ci7"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.5" y="374.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="gluck_dev_logo.png" width="1424" height="1849"/>
+        <image name="openingBackgroundEdited.png" width="1865" height="2832"/>
+        <image name="resistText.png" width="599" height="206"/>
+    </resources>
 </document>
