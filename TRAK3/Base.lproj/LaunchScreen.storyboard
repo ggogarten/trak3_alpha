@@ -22,13 +22,13 @@
                                 <rect key="frame" x="-4" y="0.0" width="383" height="667"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="resistText.png" translatesAutoresizingMaskIntoConstraints="NO" id="hXg-By-PtY">
-                                <rect key="frame" x="67" y="77" width="240" height="80"/>
+                                <rect key="frame" x="67" y="50" width="240" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="0tJ-j7-7Tc"/>
                                     <constraint firstAttribute="width" constant="240" id="85m-hl-Kli"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gluck_dev_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="yZg-LT-MBD">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gluck_dev_logo_v3_launch.png" translatesAutoresizingMaskIntoConstraints="NO" id="yZg-LT-MBD">
                                 <rect key="frame" x="137" y="512" width="101" height="130"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="130" id="6Rz-8Q-nnX"/>
@@ -45,7 +45,7 @@
                             <constraint firstItem="hXg-By-PtY" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="UhV-4B-75M"/>
                             <constraint firstItem="yZg-LT-MBD" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="aAE-W5-DBC"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="yZg-LT-MBD" secondAttribute="bottom" constant="25" id="jYw-jp-bVp"/>
-                            <constraint firstItem="hXg-By-PtY" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="57" id="pS0-LQ-ci7"/>
+                            <constraint firstItem="hXg-By-PtY" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="30" id="pS0-LQ-ci7"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
@@ -56,7 +56,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="gluck_dev_logo.png" width="1424" height="1849"/>
+        <image name="gluck_dev_logo_v3_launch.png" width="1424" height="1828"/>
         <image name="openingBackgroundEdited.png" width="1865" height="2832"/>
         <image name="resistText.png" width="599" height="206"/>
     </resources>

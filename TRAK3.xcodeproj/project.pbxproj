@@ -9,12 +9,8 @@
 /* Begin PBXBuildFile section */
 		2AF0DBCCA86643E50B653C2B /* Pods_TRAK3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC9C5070EFD11DC08A89261 /* Pods_TRAK3.framework */; };
 		3E1AE5221D2FF9C600CC93B9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1AE5211D2FF9C600CC93B9 /* AudioToolbox.framework */; };
-		3E1AE5241D303FA000CC93B9 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E1AE5231D303FA000CC93B9 /* logo.png */; };
-		3E1AE5261D30413000CC93B9 /* logo_all_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E1AE5251D30413000CC93B9 /* logo_all_white.png */; };
-		3E1AE5281D30426900CC93B9 /* logo_grey_on_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E1AE5271D30426900CC93B9 /* logo_grey_on_grey.png */; };
+		3E2EDDFE1D7A16FC002F5D94 /* gluck_dev_logo_v3_launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2EDDFD1D7A16FC002F5D94 /* gluck_dev_logo_v3_launch.png */; };
 		3E33FD131D3EE19E003AD3C2 /* selfie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E33FD121D3EE19E003AD3C2 /* selfie.jpg */; };
-		3E33FD151D3EE364003AD3C2 /* ActivityFeedCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E33FD141D3EE364003AD3C2 /* ActivityFeedCollectionViewController.swift */; };
-		3E33FD171D3EE3A0003AD3C2 /* ActivityFeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E33FD161D3EE3A0003AD3C2 /* ActivityFeedCollectionViewCell.swift */; };
 		3E3FFE9F1D3FCDF6003F45E9 /* backgroundBike.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E3FFE9E1D3FCDF6003F45E9 /* backgroundBike.png */; };
 		3E3FFEA11D3FDE4E003F45E9 /* cycle.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E3FFEA01D3FDE4E003F45E9 /* cycle.png */; };
 		3E3FFEA31D3FDE56003F45E9 /* running.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E3FFEA21D3FDE56003F45E9 /* running.png */; };
@@ -56,6 +52,9 @@
 		3E42ACA91D48427900F9895A /* facebookCircleButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E42ACA81D48427900F9895A /* facebookCircleButton.png */; };
 		3E42ACAD1D48F77200F9895A /* backgroundBridge.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E42ACAC1D48F77200F9895A /* backgroundBridge.png */; };
 		3E42ACAF1D48FC0500F9895A /* backgroundMountainBlur.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E42ACAE1D48FC0500F9895A /* backgroundMountainBlur.png */; };
+		3E4670C41DBFF350008E99B7 /* logo_all_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4670C31DBFF350008E99B7 /* logo_all_white.png */; };
+		3E4670C61DBFF35D008E99B7 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4670C51DBFF35D008E99B7 /* logo.png */; };
+		3E4670C81DBFF36B008E99B7 /* logo_grey_on_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4670C71DBFF36B008E99B7 /* logo_grey_on_grey.png */; };
 		3E4A669D1D413BCC00304FFA /* resistLogoBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4A669C1D413BCC00304FFA /* resistLogoBlue.png */; };
 		3E4A669F1D4145CE00304FFA /* runningWhiteIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4A669E1D4145CE00304FFA /* runningWhiteIcon.png */; };
 		3E4A66A11D41465400304FFA /* cycleWhiteLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4A66A01D41465400304FFA /* cycleWhiteLogo.png */; };
@@ -74,8 +73,6 @@
 		3EA629BB1D2F299D00420229 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA629BA1D2F299D00420229 /* MapKit.framework */; };
 		3EA629BD1D2F29A300420229 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA629BC1D2F29A300420229 /* CoreLocation.framework */; };
 		3EA629BF1D2FCB7300420229 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA629BE1D2FCB7300420229 /* GlobalVariables.swift */; };
-		3EB0C12E1D3D835F008189E5 /* ActivityPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB0C12D1D3D835F008189E5 /* ActivityPhotoViewController.swift */; };
-		3EB0C1301D3D837D008189E5 /* ActivityMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB0C12F1D3D837D008189E5 /* ActivityMapViewController.swift */; };
 		3ED22B4C1D4A7035004BCAD5 /* profileIconWhiteSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ED22B4B1D4A7035004BCAD5 /* profileIconWhiteSmall.png */; };
 		3ED42BCF1D2F183500BC0A71 /* WorkoutDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED42BCE1D2F183500BC0A71 /* WorkoutDetailViewController.swift */; };
 		3ED42BD11D2F18C800BC0A71 /* ApiKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3ED42BD01D2F18C800BC0A71 /* ApiKeys.plist */; };
@@ -88,30 +85,21 @@
 		3EFAFE261D2F14DD00BEC2D0 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFAFE251D2F14DD00BEC2D0 /* SignupViewController.swift */; };
 		3EFAFE281D2F14F200BEC2D0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFAFE271D2F14F200BEC2D0 /* LoginViewController.swift */; };
 		3EFAFE2A1D2F150000BEC2D0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFAFE291D2F150000BEC2D0 /* ProfileViewController.swift */; };
-		3EFAFE2C1D2F151800BEC2D0 /* ActivityFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFAFE2B1D2F151800BEC2D0 /* ActivityFeedViewController.swift */; };
 		3EFAFE2E1D2F152800BEC2D0 /* MyWorkoutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFAFE2D1D2F152800BEC2D0 /* MyWorkoutsViewController.swift */; };
 		3EFAFE301D2F154D00BEC2D0 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFAFE2F1D2F154D00BEC2D0 /* ActivityViewController.swift */; };
 		3EFAFE321D2F156200BEC2D0 /* NewActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFAFE311D2F156200BEC2D0 /* NewActivityViewController.swift */; };
 		3EFAFE341D2F157400BEC2D0 /* ActivitySummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFAFE331D2F157400BEC2D0 /* ActivitySummaryViewController.swift */; };
-		3EFAFE361D2F158400BEC2D0 /* TrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFAFE351D2F158400BEC2D0 /* TrainingViewController.swift */; };
 		3EFAFE381D2F159000BEC2D0 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFAFE371D2F159000BEC2D0 /* MoreViewController.swift */; };
-		3EFAFE3A1D2F15FD00BEC2D0 /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFAFE391D2F15FD00BEC2D0 /* FindFriendsViewController.swift */; };
 		3EFC68581D33526900666B84 /* MyWorkoutsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFC68571D33526900666B84 /* MyWorkoutsTableViewController.swift */; };
 		3EFC685A1D3352A700666B84 /* MyWorkoutsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFC68591D3352A700666B84 /* MyWorkoutsTableViewCell.swift */; };
-		3EFC685C1D35399300666B84 /* FriendsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFC685B1D35399300666B84 /* FriendsListTableViewController.swift */; };
-		3EFC685E1D353BC600666B84 /* FriendsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFC685D1D353BC600666B84 /* FriendsListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1AC9C5070EFD11DC08A89261 /* Pods_TRAK3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRAK3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E1AE5201D2FF9C600CC93B9 /* TRAK3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TRAK3.entitlements; sourceTree = "<group>"; };
 		3E1AE5211D2FF9C600CC93B9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		3E1AE5231D303FA000CC93B9 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../../../../../Downloads/logo.png; sourceTree = "<group>"; };
-		3E1AE5251D30413000CC93B9 /* logo_all_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_all_white.png; path = ../../../../../../../Downloads/logo_all_white.png; sourceTree = "<group>"; };
-		3E1AE5271D30426900CC93B9 /* logo_grey_on_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_grey_on_grey.png; path = ../../../../../../../Downloads/logo_grey_on_grey.png; sourceTree = "<group>"; };
+		3E2EDDFD1D7A16FC002F5D94 /* gluck_dev_logo_v3_launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gluck_dev_logo_v3_launch.png; sourceTree = "<group>"; };
 		3E33FD121D3EE19E003AD3C2 /* selfie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = selfie.jpg; sourceTree = "<group>"; };
-		3E33FD141D3EE364003AD3C2 /* ActivityFeedCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityFeedCollectionViewController.swift; sourceTree = "<group>"; };
-		3E33FD161D3EE3A0003AD3C2 /* ActivityFeedCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityFeedCollectionViewCell.swift; sourceTree = "<group>"; };
 		3E3FFE9E1D3FCDF6003F45E9 /* backgroundBike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundBike.png; sourceTree = "<group>"; };
 		3E3FFEA01D3FDE4E003F45E9 /* cycle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cycle.png; sourceTree = "<group>"; };
 		3E3FFEA21D3FDE56003F45E9 /* running.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = running.png; sourceTree = "<group>"; };
@@ -153,6 +141,9 @@
 		3E42ACA81D48427900F9895A /* facebookCircleButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebookCircleButton.png; sourceTree = "<group>"; };
 		3E42ACAC1D48F77200F9895A /* backgroundBridge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundBridge.png; sourceTree = "<group>"; };
 		3E42ACAE1D48FC0500F9895A /* backgroundMountainBlur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundMountainBlur.png; sourceTree = "<group>"; };
+		3E4670C31DBFF350008E99B7 /* logo_all_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_all_white.png; sourceTree = "<group>"; };
+		3E4670C51DBFF35D008E99B7 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		3E4670C71DBFF36B008E99B7 /* logo_grey_on_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_grey_on_grey.png; sourceTree = "<group>"; };
 		3E4A669C1D413BCC00304FFA /* resistLogoBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resistLogoBlue.png; sourceTree = "<group>"; };
 		3E4A669E1D4145CE00304FFA /* runningWhiteIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = runningWhiteIcon.png; sourceTree = "<group>"; };
 		3E4A66A01D41465400304FFA /* cycleWhiteLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cycleWhiteLogo.png; sourceTree = "<group>"; };
@@ -171,12 +162,10 @@
 		3EA629BA1D2F299D00420229 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		3EA629BC1D2F29A300420229 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		3EA629BE1D2FCB7300420229 /* GlobalVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
-		3EB0C12D1D3D835F008189E5 /* ActivityPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityPhotoViewController.swift; sourceTree = "<group>"; };
-		3EB0C12F1D3D837D008189E5 /* ActivityMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityMapViewController.swift; sourceTree = "<group>"; };
 		3ED22B4B1D4A7035004BCAD5 /* profileIconWhiteSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profileIconWhiteSmall.png; sourceTree = "<group>"; };
 		3ED42BCE1D2F183500BC0A71 /* WorkoutDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutDetailViewController.swift; sourceTree = "<group>"; };
 		3ED42BD01D2F18C800BC0A71 /* ApiKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ApiKeys.plist; sourceTree = "<group>"; };
-		3EFAFE0D1D2ECCAB00BEC2D0 /* Resist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Resist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EFAFE0D1D2ECCAB00BEC2D0 /* TRAK3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRAK3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EFAFE101D2ECCAC00BEC2D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EFAFE121D2ECCAC00BEC2D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3EFAFE151D2ECCAC00BEC2D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -187,18 +176,13 @@
 		3EFAFE251D2F14DD00BEC2D0 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		3EFAFE271D2F14F200BEC2D0 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3EFAFE291D2F150000BEC2D0 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		3EFAFE2B1D2F151800BEC2D0 /* ActivityFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityFeedViewController.swift; sourceTree = "<group>"; };
 		3EFAFE2D1D2F152800BEC2D0 /* MyWorkoutsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyWorkoutsViewController.swift; sourceTree = "<group>"; };
 		3EFAFE2F1D2F154D00BEC2D0 /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 		3EFAFE311D2F156200BEC2D0 /* NewActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewActivityViewController.swift; sourceTree = "<group>"; };
 		3EFAFE331D2F157400BEC2D0 /* ActivitySummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitySummaryViewController.swift; sourceTree = "<group>"; };
-		3EFAFE351D2F158400BEC2D0 /* TrainingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingViewController.swift; sourceTree = "<group>"; };
 		3EFAFE371D2F159000BEC2D0 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
-		3EFAFE391D2F15FD00BEC2D0 /* FindFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindFriendsViewController.swift; sourceTree = "<group>"; };
 		3EFC68571D33526900666B84 /* MyWorkoutsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyWorkoutsTableViewController.swift; sourceTree = "<group>"; };
 		3EFC68591D3352A700666B84 /* MyWorkoutsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyWorkoutsTableViewCell.swift; sourceTree = "<group>"; };
-		3EFC685B1D35399300666B84 /* FriendsListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsListTableViewController.swift; sourceTree = "<group>"; };
-		3EFC685D1D353BC600666B84 /* FriendsListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsListTableViewCell.swift; sourceTree = "<group>"; };
 		4D20838B66649AAF0DE47377 /* Pods-TRAK3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRAK3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRAK3/Pods-TRAK3.debug.xcconfig"; sourceTree = "<group>"; };
 		F8D4760D78139E46269FC467 /* Pods-TRAK3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRAK3.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRAK3/Pods-TRAK3.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -231,7 +215,7 @@
 		3EFAFE0E1D2ECCAB00BEC2D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3EFAFE0D1D2ECCAB00BEC2D0 /* Resist.app */,
+				3EFAFE0D1D2ECCAB00BEC2D0 /* TRAK3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -291,6 +275,7 @@
 				3E4A669C1D413BCC00304FFA /* resistLogoBlue.png */,
 				3E3FFEEE1D4136E9003F45E9 /* resistLogo.png */,
 				3E4A66A21D418DBC00304FFA /* preferencesIcon.png */,
+				3E2EDDFD1D7A16FC002F5D94 /* gluck_dev_logo_v3_launch.png */,
 				3E3FFEBC1D3FF8CC003F45E9 /* record3.png */,
 				3E4A669E1D4145CE00304FFA /* runningWhiteIcon.png */,
 				3E3FFED01D40102F003F45E9 /* healthkit.png */,
@@ -301,23 +286,14 @@
 				3EFAFE101D2ECCAC00BEC2D0 /* AppDelegate.swift */,
 				3EFAFE121D2ECCAC00BEC2D0 /* ViewController.swift */,
 				3EFAFE141D2ECCAC00BEC2D0 /* Main.storyboard */,
-				3E33FD161D3EE3A0003AD3C2 /* ActivityFeedCollectionViewCell.swift */,
-				3E33FD141D3EE364003AD3C2 /* ActivityFeedCollectionViewController.swift */,
-				3EB0C12D1D3D835F008189E5 /* ActivityPhotoViewController.swift */,
-				3EB0C12F1D3D837D008189E5 /* ActivityMapViewController.swift */,
-				3EFC685D1D353BC600666B84 /* FriendsListTableViewCell.swift */,
-				3EFC685B1D35399300666B84 /* FriendsListTableViewController.swift */,
+				3EFAFE2D1D2F152800BEC2D0 /* MyWorkoutsViewController.swift */,
 				3EFC68571D33526900666B84 /* MyWorkoutsTableViewController.swift */,
 				3EFC68591D3352A700666B84 /* MyWorkoutsTableViewCell.swift */,
 				3ED42BCE1D2F183500BC0A71 /* WorkoutDetailViewController.swift */,
-				3EFAFE391D2F15FD00BEC2D0 /* FindFriendsViewController.swift */,
 				3EFAFE371D2F159000BEC2D0 /* MoreViewController.swift */,
-				3EFAFE351D2F158400BEC2D0 /* TrainingViewController.swift */,
 				3EFAFE331D2F157400BEC2D0 /* ActivitySummaryViewController.swift */,
 				3EFAFE311D2F156200BEC2D0 /* NewActivityViewController.swift */,
 				3EFAFE2F1D2F154D00BEC2D0 /* ActivityViewController.swift */,
-				3EFAFE2D1D2F152800BEC2D0 /* MyWorkoutsViewController.swift */,
-				3EFAFE2B1D2F151800BEC2D0 /* ActivityFeedViewController.swift */,
 				3EFAFE291D2F150000BEC2D0 /* ProfileViewController.swift */,
 				3EA629BE1D2FCB7300420229 /* GlobalVariables.swift */,
 				3EFAFE271D2F14F200BEC2D0 /* LoginViewController.swift */,
@@ -327,9 +303,9 @@
 				3EFAFE1F1D2ECCAC00BEC2D0 /* Info.plist */,
 				3EFAFE171D2ECCAC00BEC2D0 /* TRAK3.xcdatamodeld */,
 				3ED42BD01D2F18C800BC0A71 /* ApiKeys.plist */,
-				3E1AE5231D303FA000CC93B9 /* logo.png */,
-				3E1AE5251D30413000CC93B9 /* logo_all_white.png */,
-				3E1AE5271D30426900CC93B9 /* logo_grey_on_grey.png */,
+				3E4670C51DBFF35D008E99B7 /* logo.png */,
+				3E4670C31DBFF350008E99B7 /* logo_all_white.png */,
+				3E4670C71DBFF36B008E99B7 /* logo_grey_on_grey.png */,
 			);
 			path = TRAK3;
 			sourceTree = "<group>";
@@ -357,9 +333,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3EFAFE0C1D2ECCAB00BEC2D0 /* Resist */ = {
+		3EFAFE0C1D2ECCAB00BEC2D0 /* TRAK3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3EFAFE221D2ECCAC00BEC2D0 /* Build configuration list for PBXNativeTarget "Resist" */;
+			buildConfigurationList = 3EFAFE221D2ECCAC00BEC2D0 /* Build configuration list for PBXNativeTarget "TRAK3" */;
 			buildPhases = (
 				E433A33820B786F53AAF1858 /* [CP] Check Pods Manifest.lock */,
 				3EFAFE091D2ECCAB00BEC2D0 /* Sources */,
@@ -372,9 +348,9 @@
 			);
 			dependencies = (
 			);
-			name = Resist;
+			name = TRAK3;
 			productName = TRAK3;
-			productReference = 3EFAFE0D1D2ECCAB00BEC2D0 /* Resist.app */;
+			productReference = 3EFAFE0D1D2ECCAB00BEC2D0 /* TRAK3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -384,7 +360,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "George Gogarten";
 				TargetAttributes = {
 					3EFAFE0C1D2ECCAB00BEC2D0 = {
@@ -401,7 +377,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3EFAFE081D2ECCAB00BEC2D0 /* Build configuration list for PBXProject "Resist" */;
+			buildConfigurationList = 3EFAFE081D2ECCAB00BEC2D0 /* Build configuration list for PBXProject "TRAK3" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -414,7 +390,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3EFAFE0C1D2ECCAB00BEC2D0 /* Resist */,
+				3EFAFE0C1D2ECCAB00BEC2D0 /* TRAK3 */,
 			);
 		};
 /* End PBXProject section */
@@ -426,7 +402,6 @@
 			files = (
 				3E3FFECD1D400C4F003F45E9 /* facebook_login_small.png in Resources */,
 				3E3FFEB91D3FF420003F45E9 /* record.png in Resources */,
-				3E1AE5281D30426900CC93B9 /* logo_grey_on_grey.png in Resources */,
 				3E3FFEB31D3FED29003F45E9 /* swimBW-02.png in Resources */,
 				3E42ACA51D4832C000F9895A /* resistText.png in Resources */,
 				3E3FFED31D4010CE003F45E9 /* location_services.png in Resources */,
@@ -438,13 +413,12 @@
 				3E3FFEC31D3FFBAA003F45E9 /* activityFeed.png in Resources */,
 				3E3FFEDD1D4015C4003F45E9 /* gluck_dev_logo.png in Resources */,
 				3E42ACAF1D48FC0500F9895A /* backgroundMountainBlur.png in Resources */,
-				3E1AE5241D303FA000CC93B9 /* logo.png in Resources */,
 				3E7F945A1D46A8BA00EB8360 /* timerIcon2.png in Resources */,
 				3ED22B4C1D4A7035004BCAD5 /* profileIconWhiteSmall.png in Resources */,
 				3E3FFEE51D4045CF003F45E9 /* musicHeadphones.png in Resources */,
 				3E3FFEAB1D3FEB6B003F45E9 /* runningBW-01.png in Resources */,
-				3E1AE5261D30413000CC93B9 /* logo_all_white.png in Resources */,
 				3E4A66A51D418FFB00304FFA /* friendsIcon.png in Resources */,
+				3E4670C61DBFF35D008E99B7 /* logo.png in Resources */,
 				3ED42BD11D2F18C800BC0A71 /* ApiKeys.plist in Resources */,
 				3E4A66A91D41939000304FFA /* profileIconWhite.png in Resources */,
 				3E3FFEED1D411D17003F45E9 /* pauseButtonIcon.png in Resources */,
@@ -457,6 +431,7 @@
 				3E3FFEAD1D3FEB72003F45E9 /* swimBW-01.png in Resources */,
 				3E3FFED11D40102F003F45E9 /* healthkit.png in Resources */,
 				3E3FFEA71D3FE9EC003F45E9 /* cycleBW.png in Resources */,
+				3E4670C41DBFF350008E99B7 /* logo_all_white.png in Resources */,
 				3E3FFEBD1D3FF8CC003F45E9 /* record3.png in Resources */,
 				3E3FFEBB1D3FF426003F45E9 /* record2.png in Resources */,
 				3E4A669D1D413BCC00304FFA /* resistLogoBlue.png in Resources */,
@@ -471,6 +446,7 @@
 				3E3FFEA31D3FDE56003F45E9 /* running.png in Resources */,
 				3E3FFEEB1D4117A5003F45E9 /* stopButtonIcon.png in Resources */,
 				3E3FFECF1D400CA2003F45E9 /* facebook_login_medium.png in Resources */,
+				3E2EDDFE1D7A16FC002F5D94 /* gluck_dev_logo_v3_launch.png in Resources */,
 				3E7F94581D46A73600EB8360 /* timerIcon.png in Resources */,
 				3E42ACA91D48427900F9895A /* facebookCircleButton.png in Resources */,
 				3E3FFEA91D3FEB66003F45E9 /* cycleBW-01.png in Resources */,
@@ -485,6 +461,7 @@
 				3E7F94541D46A70F00EB8360 /* globeIcon.png in Resources */,
 				3E3FFEC91D400980003F45E9 /* challenge.png in Resources */,
 				3E4A66A71D41912800304FFA /* challengeIcon.png in Resources */,
+				3E4670C81DBFF36B008E99B7 /* logo_grey_on_grey.png in Resources */,
 				3E42ACA71D4837BA00F9895A /* openingBackgroundEdited.png in Resources */,
 				3E3FFEE91D4115FA003F45E9 /* playButtonIcon.png in Resources */,
 				3E3FFEC71D3FFD62003F45E9 /* myActivity.png in Resources */,
@@ -537,7 +514,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -552,25 +529,16 @@
 				3EFAFE191D2ECCAC00BEC2D0 /* TRAK3.xcdatamodeld in Sources */,
 				3EFAFE131D2ECCAC00BEC2D0 /* ViewController.swift in Sources */,
 				3EFAFE261D2F14DD00BEC2D0 /* SignupViewController.swift in Sources */,
-				3E33FD151D3EE364003AD3C2 /* ActivityFeedCollectionViewController.swift in Sources */,
 				3ED42BCF1D2F183500BC0A71 /* WorkoutDetailViewController.swift in Sources */,
-				3EB0C1301D3D837D008189E5 /* ActivityMapViewController.swift in Sources */,
 				3EFAFE321D2F156200BEC2D0 /* NewActivityViewController.swift in Sources */,
 				3EFAFE301D2F154D00BEC2D0 /* ActivityViewController.swift in Sources */,
-				3EFAFE361D2F158400BEC2D0 /* TrainingViewController.swift in Sources */,
 				3EFAFE2E1D2F152800BEC2D0 /* MyWorkoutsViewController.swift in Sources */,
 				3EA629BF1D2FCB7300420229 /* GlobalVariables.swift in Sources */,
-				3EFC685E1D353BC600666B84 /* FriendsListTableViewCell.swift in Sources */,
 				3EFAFE341D2F157400BEC2D0 /* ActivitySummaryViewController.swift in Sources */,
-				3E33FD171D3EE3A0003AD3C2 /* ActivityFeedCollectionViewCell.swift in Sources */,
-				3EFAFE2C1D2F151800BEC2D0 /* ActivityFeedViewController.swift in Sources */,
-				3EB0C12E1D3D835F008189E5 /* ActivityPhotoViewController.swift in Sources */,
 				3EFC685A1D3352A700666B84 /* MyWorkoutsTableViewCell.swift in Sources */,
 				3EFAFE281D2F14F200BEC2D0 /* LoginViewController.swift in Sources */,
 				3EFC68581D33526900666B84 /* MyWorkoutsTableViewController.swift in Sources */,
 				3EFAFE111D2ECCAC00BEC2D0 /* AppDelegate.swift in Sources */,
-				3EFC685C1D35399300666B84 /* FriendsListTableViewController.swift in Sources */,
-				3EFAFE3A1D2F15FD00BEC2D0 /* FindFriendsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,8 +578,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -638,6 +608,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -655,8 +626,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -675,6 +648,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -690,7 +665,7 @@
 				INFOPLIST_FILE = TRAK3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gogarten.TRAK3;
-				PRODUCT_NAME = Resist;
+				PRODUCT_NAME = TRAK3;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -706,7 +681,7 @@
 				INFOPLIST_FILE = TRAK3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gogarten.TRAK3;
-				PRODUCT_NAME = Resist;
+				PRODUCT_NAME = TRAK3;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -714,7 +689,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3EFAFE081D2ECCAB00BEC2D0 /* Build configuration list for PBXProject "Resist" */ = {
+		3EFAFE081D2ECCAB00BEC2D0 /* Build configuration list for PBXProject "TRAK3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3EFAFE201D2ECCAC00BEC2D0 /* Debug */,
@@ -723,7 +698,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3EFAFE221D2ECCAC00BEC2D0 /* Build configuration list for PBXNativeTarget "Resist" */ = {
+		3EFAFE221D2ECCAC00BEC2D0 /* Build configuration list for PBXNativeTarget "TRAK3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3EFAFE231D2ECCAC00BEC2D0 /* Debug */,

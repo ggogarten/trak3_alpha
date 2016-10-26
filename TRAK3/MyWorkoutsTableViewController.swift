@@ -51,8 +51,9 @@ class MyWorkoutsTableViewController: PFQueryTableViewController {
         let cell = tableView.dequeueReusableCellWithIdentifier("workoutsCell", forIndexPath: indexPath) as! MyWorkoutsTableViewCell
         
         print("cell found")
-        cell.activityIdLabel!.text = object!.objectId
+//        cell.activityIdLabel!.text = object!.objectId
         cell.activityDateLabel!.text = String(object!.valueForKey("activityTimeStamp"))
+        print(object!.valueForKey("activityTimeStamp"))
         cell.activityDistanceLabel!.text = String(object!.valueForKey("distance"))
         cell.activityTimeLabel!.text = String(object!.valueForKey("duration"))
         cell.averagePaceLabel?.text = String?("Coming Soon")

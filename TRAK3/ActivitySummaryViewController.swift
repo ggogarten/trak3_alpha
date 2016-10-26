@@ -412,25 +412,25 @@ class ActivitySummaryViewController: UIViewController, MKMapViewDelegate, UINavi
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)
     {
-        if (segue.identifier == "activityMapSegue") {
-            if let childViewController = segue.destinationViewController as? ActivityMapViewController {
-//            DestViewController.LabelText = TextField.text
-            childViewController.locations = locations
-            }
-            
-            
-        } else {
-            
-            if (segue.identifier == "activityPhotoSegue") {
-                if let childViewController = segue.destinationViewController as? ActivityPhotoViewController {
-                childViewController.activityId = activityId
-//                    print(activityPicture)
-                    print(activityId)
-                    print("delegate set")
-                    
-                }
-            }
-        }
+//        if (segue.identifier == "activityMapSegue") {
+//            if let childViewController = segue.destinationViewController as? ActivityMapViewController {
+////            DestViewController.LabelText = TextField.text
+//            childViewController.locations = locations
+//            }
+//            
+//            
+//        } else {
+//            
+//            if (segue.identifier == "activityPhotoSegue") {
+//                if let childViewController = segue.destinationViewController as? ActivityPhotoViewController {
+//                childViewController.activityId = activityId
+////                    print(activityPicture)
+//                    print(activityId)
+//                    print("delegate set")
+//                    
+//                }
+//            }
+//        }
     }
     
 
